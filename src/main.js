@@ -7,7 +7,7 @@ import './assets/styles/reset.css'
 // 重置所有样式
 import './assets/styles/border.css'
 // 解决移动端1像素边框问题
-
+import './assets/styles/iconfont.css'
 Vue.config.productionTip = false
 fastClick.attach(document.body)
 // 调用fastClick绑定到document.body上
