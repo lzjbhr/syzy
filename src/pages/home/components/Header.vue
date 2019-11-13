@@ -20,14 +20,13 @@ export default {
 }
 </script>
 
-<style lang='stylus' scoped>
- .header
-   display: flex
-   line-height: .88rem
-   height .88rem
-   background: #00afc7
-   color: #fff
-   .header-left
+<style lang="stylus" scoped>
+  .header
+    display: flex
+    line-height: .88rem
+    background: #00afc7
+    color: #fff
+    .header-left
       width: .64rem
       float: left
       .back-icon
@@ -49,12 +48,7 @@ export default {
       float: right
       text-align: center
       color: #fff
-     .arrow-icon
-       margin-left: -.04rem
-       font-size: .24rem
-       min-width: 1.04rem
-       padding: 0 .1rem
-       float: right
-       text-align: center
-       color: #fff
+      .arrow-icon
+        margin-left: -.04rem
+        font-size: .24rem
 </style>
